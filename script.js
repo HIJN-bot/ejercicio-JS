@@ -1,4 +1,3 @@
-```javascript
 // BOTÓN CAMBIAR TÍTULO
 document.getElementById("btnTitulo").addEventListener("click", function() {
     let titulo = document.getElementById("titulo");
@@ -96,4 +95,4 @@ document.getElementById("filtrar").addEventListener("click", function() {
 
 cargarCategorias();
 mostrarProductos(productos);
-```
+
