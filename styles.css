@@ -1,0 +1,29 @@
+```css
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+    font-size: 12px;
+}
+
+#exito {
+    color: green;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 250px;
+}
+```

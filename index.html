@@ -1,0 +1,51 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactividad con JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="titulo">Mi página interactiva</h1>
+
+    <button id="btnTitulo">Cambiar título</button>
+    <button id="btnParrafo">Mostrar/Ocultar párrafo</button>
+
+    <p id="parrafo">Este es un texto de ejemplo que se puede ocultar.</p>
+
+    <h2>Formulario de contacto</h2>
+
+    <form id="formulario">
+        <label>Nombre:</label><br>
+        <input type="text" id="nombre">
+        <span id="errorNombre"></span><br><br>
+
+        <label>Correo:</label><br>
+        <input type="text" id="correo">
+        <span id="errorCorreo"></span><br><br>
+
+        <label>Mensaje:</label><br>
+        <textarea id="mensaje"></textarea>
+        <span id="errorMensaje"></span><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="exito"></p>
+
+    <h2>Lista de productos</h2>
+
+    <select id="categoria">
+        <option value="todas">Todas</option>
+    </select>
+
+    <button id="filtrar">Filtrar</button>
+
+    <ul id="listaProductos"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
